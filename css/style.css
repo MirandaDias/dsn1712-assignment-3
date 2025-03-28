@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 header{
     background-color: #000;
     color: #fff;
@@ -28,3 +29,21 @@ nav a{
     text-decoration: none;
     color: #fff;
 }
+
+
+
+#hero{
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image:url(../images/hands-typing.jpg);
+    filter: grayscale(70%);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 2rem;
+    padding: 2em;
+}
+
