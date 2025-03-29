@@ -6,14 +6,15 @@ body{
     margin: 0;
 }
 
-header{
-    background-color: #000;
-    color: #fff;
-}
-
 .wrapper{
     max-width: 940px;
     margin: 0 auto;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
 }
 
 header .wrapper{
