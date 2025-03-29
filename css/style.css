@@ -63,22 +63,19 @@ h2{
 }
 
 #about-me .wrapper{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    align-content: space-around;
 
 }
 
 .text-am{
-    grid-column: 1/2;
-    align-content: center;
+    align-self: center;
     }
 
 .img-am{
-    grid-column: 2/3; 
-    align-content: flex-end;
+    align-self: flex-end;
+    max-block-size: 400px;
 }
-/* needs to be adjusted */
-
 
 #services{
     background-color: #fafafa;
