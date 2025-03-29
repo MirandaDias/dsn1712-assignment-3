@@ -80,3 +80,26 @@ h2{
 /* needs to be adjusted */
 
 
+#services{
+    background-color: #fafafa;
+    padding: 2em;
+}
+/* instructions said to apply wrapper, but example seems to have none */
+
+#services h2{
+    max-width: 100%;
+    text-align: center;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+article{
+    background-color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+}
