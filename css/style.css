@@ -103,3 +103,21 @@ article{
     display: flex;
     flex-direction: column;
 }
+
+.articles a:link,.articles a:visited{
+  display: inline-block;
+  padding: .5em .5em;
+  background-color:#000;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #000;
+  border-radius: 4px;
+  margin-top: auto;
+  max-width: fit-content;
+}
+
+.articles a:hover, .articles a:focus{
+    background-color: #fff;
+    color: #000;
+}
+
