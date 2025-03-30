@@ -72,7 +72,7 @@ h2{
 
 .text-am{
     align-self: center;
-    }
+}
 
 .img-am{
     align-self: flex-end;
@@ -128,7 +128,6 @@ article{
     color: #000;
 }
 
-
 #work{
     text-align: center;
     margin: 0 auto;
@@ -154,6 +153,7 @@ article{
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(2,1fr);
     margin-bottom: 2em;
+    background-color: #000;
 }
 
 .photos img{
